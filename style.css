@@ -496,6 +496,23 @@
 /* RESPONSIVE CSS */
 
 @media only screen and (max-width: 1070px) {
+  .project img, .project video{
+    width: 280px;
+  }
+  .projectContainer .project{
+    width: 282px;
+  }
+  .projectContainer {
+    grid-template-columns: auto;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .hide {
+    top: 38px;
+    left: -42px;
+  }
   .container{
     display: flex;
     flex-direction: column;
