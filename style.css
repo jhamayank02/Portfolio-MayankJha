@@ -33,6 +33,7 @@
 }
 
 .hide {
+  z-index: 2;
   display: none;
   font-size: 17px;
   box-shadow: 0 0 7px #7c7c7c;
@@ -183,6 +184,7 @@
 }
 
 .education .rightBoxes .educationDetails{
+  z-index: 2;
   background-color: #dddddd;
   padding: 7px 25px;
   width: max-content;
@@ -570,5 +572,31 @@
   }
   .education .rightBoxes .box3{
     top: 274px;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .education .rightBoxes .educationDetails {
+    width: 18ch;
+    word-break: break-word;
+  }
+  .education .rightBoxes .box2{
+    top: 142px;
+  }
+  .education .rightBoxes .box3{
+    top: 313px;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .education .rightBoxes .educationDetails {
+    width: 14ch;
+    word-break: break-word;
+  }
+  .education .rightBoxes .box2{
+    top: 155px;
+  }
+  .education .rightBoxes .box3{
+    top: 343px;
   }
 }
