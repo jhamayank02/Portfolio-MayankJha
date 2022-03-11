@@ -496,9 +496,16 @@
 @media only screen and (max-width: 1070px) {
   .container{
     display: flex;
+    flex-direction: column;
   }
   .container .left{
     padding: 0 15px;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-evenly;
+  }
+  .left .navIcons {
+    margin: 15px 0;
   }
   .slideImage{
     display: none;
@@ -514,6 +521,9 @@
   .education .rightBoxes .educationDetails {
     width: 60ch;
     word-break: break-word;
+  }
+  .servicesContainer img {
+    height: 30vh;
   }
 }
 
